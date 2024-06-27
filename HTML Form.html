@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Form</title>
+    <link rel="stylesheet" type="text/css" href="HTML Form.css">
+    <script type="text/javascript">
+        function validateForm() {
+            var name = document.getElementById("firstname").value;
+            var pass1 = document.getElementById("password1").value;
+            var pass2 = document.getElementById("password2").value;
+
+            if (name == "") {       //name validation
+                alert("Error: Name input is empty!");
+                return false;
+            }
+            if (pass1 == pass2) {       //password validation
+                alert("Paswwords Match!");
+                return true;
+            }
+            else {
+                alert("Passwords do not match!");
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="container">
+        <div>
+            <img id="img" src="https://guardians.edu.pk/img/c1.png"/>    <!--used image-->
+            <h1>Contact Information</h1>
+            <p>
+                This form has been made for the purpose of collecting contact information.
+                I've chose it because I think this genre of form contains almost every possible 
+                attribute a good form should have! I've used input fields of a total of 8 different types.'
+            </p>
+        </div>
+        <div id="content">
+            <form action="HTML Form submission.html" onsubmit="return validateForm();">
+                <div id="nav">
+                    <!-- onsubmit="return validateForm();">-->
+                    First Name:<br /> 
+                    <input type="text" name="firstname" id="firstname" required " /><br />
+                    Middle Name:<br />
+                    <input type="text" name="middlename" /><br />
+                    Last Name:<br />
+                    <input type="text" name="lastname" value="Jack" required /><br />
+                    Age:<br />
+                    <input type="number" name="num" /><br />
+                    
+                    <br />
+                    E-Mail:<br />
+                    <input type="email" name="email" /><br />
+                    LinkedIn Profile:<br />
+                    <input type="url" value="Enter Link" /><br />
+
+                    Password:<br />
+                    <input type="password" id="password1" required /><br />
+                    Re-Enter Password:<br />
+                    <input type="password" id="password2" required /><br />
+                    <br />
+                </div>
+
+                <div id="main">
+                    Skills:<br />
+                    <input type="checkbox" name="skills" value="HTML" />HTML<br />
+                    <input type="checkbox" name="skills" value="JavaScript" />JavaScript<br />
+                    <input type="checkbox" name="skills" value="CSS" />CSS<br />
+                    <br />
+
+                    Fav Color:<br />
+                    <input type="color" name="color" /><br />
+                    <br />
+                    Birthday:<br />
+                    <input type="date" name="birthdate" /><br />
+                </div>
+                <div class="btn" id="btn" colspan="3">
+                    <input type="submit" />
+                    <!--validating on onClick event-->
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
