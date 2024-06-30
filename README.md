@@ -1,7 +1,7 @@
 # Contact-Information-Form
 
 # Project Overview
-Welcome to the `HTML Form Project`! This project demonstrates the creation and validation of a simple yet comprehensive HTML form. It is designed to collect contact information while showcasing various form elements and styling techniques. The form includes input fields of different types, a JavaScript-based validation mechanism, and a clean, user-friendly design.
+Welcome to the **Contact Information Form project**! This project demonstrates the creation and validation of a simple yet comprehensive HTML form. It is designed to collect contact information while showcasing various form elements and styling techniques. The form includes input fields of different types, a JavaScript-based validation mechanism, and a clean, user-friendly design.
 
 # Features
 - Comprehensive Form Elements: The form includes a variety of input types such as text, email, number, password, URL, checkbox, color, and date.
@@ -20,9 +20,9 @@ Welcome to the `HTML Form Project`! This project demonstrates the creation and v
 3. Customize: Modify the HTML, CSS, and JavaScript files as needed to suit your requirements.
 
 # File Structure
-- `HTML Form.html`: The main HTML file containing the form structure.
-- `HTML Form.css`: The CSS file for styling the form.
-- `HTML Form submission.html`: A simple HTML file displayed upon successful form submission.
+- **HTML Form.html**: The main HTML file containing the form structure.
+- **HTML Form.css**: The CSS file for styling the form.
+- **HTML Form submission.html**: A simple HTML file displayed upon successful form submission.
 
 # Form Details
 The form collects the following information:
@@ -50,5 +50,4 @@ The form is styled using the HTML Form.css file to enhance its visual appeal. Ke
 - Inputs and Buttons: Clear layout with appropriate margins and alignment.
 
 # Author
-- [Kainat Umar]
-  - Developer of this project.
+- **Kainat Umar** - *Developer of this project.*
